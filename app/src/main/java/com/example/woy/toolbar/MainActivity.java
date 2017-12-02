@@ -81,20 +81,10 @@ public class MainActivity extends AppCompatActivity {
 //  read text from editTexts, create tableRow, and add it to tableLayout
 
 //                EditText e1 = (EditText) findViewById(R.id.editText);
-//                EditText e2 = (EditText) findViewById(R.id.editText2);
 //                s1.setText(e1.getText());
 //                s1.setTextSize(15);
 //                s1.setGravity(Gravity.CENTER);
-//                s2.setText(e2.getText());
-//                s2.setTextSize(15);
-//                s2.setGravity(Gravity.CENTER);
-//                s3.setText(rb.getText());
-//                s3.setTextSize(15);
-//                s3.setGravity(Gravity.CENTER);
-
 //                tabR.addView(s1);
-//                tabR.addView(s2);
-//                tabR.addView(s3);
 
                 tabL.addView(tabR);
                 return true;
@@ -116,31 +106,6 @@ public class MainActivity extends AppCompatActivity {
 //    public void onClick(View view){
 //        switch(view.getId()){
 //            case R.id.button:
-//                tabR = new TableRow(this);
-//                s1 = new TextView(this);
-//                s2 = new TextView(this);
-//                s3 = new TextView(this);
-//
-//                int rid = rg.getCheckedRadioButtonId();
-//                RadioButton rb = (RadioButton) findViewById(rid);
-//
-//                EditText e1 = (EditText) findViewById(R.id.editText);
-//                EditText e2 = (EditText) findViewById(R.id.editText2);
-//                s1.setText(e1.getText());
-//                s1.setTextSize(15);
-//                s1.setGravity(Gravity.CENTER);
-//                s2.setText(e2.getText());
-//                s2.setTextSize(15);
-//                s2.setGravity(Gravity.CENTER);
-//                s3.setText(rb.getText());
-//                s3.setTextSize(15);
-//                s3.setGravity(Gravity.CENTER);
-//
-//                tabR.addView(s1);
-//                tabR.addView(s2);
-//                tabR.addView(s3);
-//
-//                tabL.addView(tabR);
 //                break;
 //            default:
 //                break;
